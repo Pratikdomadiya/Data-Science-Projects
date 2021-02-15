@@ -65,3 +65,73 @@ Here are the types of interviews (or parts of interviews) I’ve come across.
     You should be prepared to give a high-level summary of your career, as well as to do a deep-dive into a project 
     you’ve worked on. The project doesn’t have to be directly related to the position you’re interviewing for 
     (though it can’t hurt), but it needs to be the kind of work you can have an in-depth technical discussion about.
+
+    To prepare:
+        - Review any papers/presentations that came out of your projects to refresh your mind on the technical details.
+        - Practice explaining your project to a friend in order to make sure you are telling a coherent story. Keep in 
+          mind that you’ll probably be talking to someone who’s smart but doesn’t have expertise in your particular field.
+        - Be prepared to answer questions as to why you chose the approach that you did, and about your individual 
+          contribution to the project.
+
+4. Culture fit
+    Here are some culture fit questions your interviewers are likely to be interested in.
+
+    Are you specifically interested in the product/company/space you’d be working in? It helps to prepare by thinking 
+        about the problems the company is trying to solve, and how you and the team you’d be part of could make a difference.
+    Do you care about impact? Even in a research-oriented corporate environment, I wouldn’t recommend saying that 
+        you don’t care about company metrics, and that you’d love to just play with data and write papers.
+    Will you work well with other people? I know it’s a cliché, but most work is collaborative, and companies 
+        are trying to assess this as best they can. Avoid bad-mouthing former colleagues, and show appreciation for their contributions to your projects.
+    Are you willing to get your hands dirty? If there’s annoying work that needs to be done (e.g. cleaning up messy data), 
+        will you take care of it?
+    Are you someone the team will be happy to have around on a personal level? Even though you might be stressed, try to 
+        be friendly, positive, enthusiastic and genuine throughout the interview process.
+    You may also get broad questions about what kinds of work you enjoy and what motivates you. It’s useful to have an answer ready, 
+        but there may not be a “right” answer the interviewer is looking for.
+
+5. machine learning theory
+    This type of interview will test your understanding of basic machine learning concepts, generally with a focus on supervised 
+    learning. 
+    
+    You should understand:
+
+        The general setup for a supervised learning system
+        Why you want to split data into training and test sets
+        The idea that models that aren’t powerful enough can’t capture the right generalizations about the data, and ways 
+            to address this (e.g. different model or projection into a higher-dimensional space)
+        The idea that models that are too powerful suffer from overfitting, and ways to address this (e.g. regularization)
+        You don’t need to know a lot of machine learning algorithms, but you definitely need to understand logistic regression, 
+            which seems to be what most companies are using. I also had some in-depth discussions of SVMs, but that may just be 
+            because I brought them up.
+
+        Understand machine learning concepts on an intuitive level, focusing especially on supervised learning.
+            Learn the math behind logistic regression.
+        Resources:
+            The Shape of Data blog provides a nice intuitive overview.
+            A Few Useful Things to Know about Machine Learning
+            To really go in depth, check out Andrew Ng’s Stanford machine learning course on Coursera or OpenClassroom.
+    
+6. Dataset analysis.
+    In this type of interview, you will be given a data set, and asked to write a script to pull out features for some prediction 
+    task. You may be asked to then plug the features into a machine learning algorithm. This interview essentially adds an 
+    implementation component to the applied machine learning interview.
+
+    I found these interviews hardest to prepare for, because the recruiter often wouldn’t tell me what format the data would be 
+    in, and what exactly I’d need to do with it. (For example, do I need to review Python’s csv import module? Should I look 
+    over the syntax for training a model in scikit-learn?) I also had one recruiter tell me I’d be analyzing “big data”, which 
+    was a bit intimidating (am I going to be working with distributed databases or something?) until I discovered at the 
+    interview that the “big data” set had all of 11,000 examples. I encourage you to push for as much info as possible about 
+    what you’ll actually be doing.
+
+    If you plan to use Python, working through the scikit-learn tutorial is a good way to prepare.
+
+7.Stats
+    I have a decent intuitive understanding of statistics, but very little formal knowledge. Most of the time, this sufficed,
+    though I’m sure knowing more wouldn’t have hurt. You should understand how to set up an A/B test, including random sampling, 
+    confounding variables, summary statistics (e.g. mean), and measuring statistical significance.
+
+    Resources:
+    Quora answer about how to prepare for interview questions about A/B testing
+    How not to run an A/B test
+    Sample size calculator, which you can use to get some intuition about sample sizes required based on the sensitivity 
+    (i.e. minimal detectable effect) and statistical significance you’re looking for
