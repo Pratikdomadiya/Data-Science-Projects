@@ -1,0 +1,67 @@
+During the interview phase of the process, your recruiter is on your side and can usually tell you what types 
+of interviews you’ll have. Data science roles generally fall into two broad ares of focus: statistics and machine learning.
+
+Here are the types of interviews (or parts of interviews) I’ve come across.
+
+    Always:
+        Coding (usually whiteboard- Whiteboard coding precisely means coding 
+                by your hand instead of typing on an IDE and compiling by your mind instead of a compiler)
+        Applied machine learning
+        Your background
+
+    Often:
+        Culture fit
+        Machine learning theory
+        Dataset analysis
+        Stats
+
+1. Whiteboard Coding:
+    Python’s succinct syntax makes it a great language for coding interviews.
+
+    Prep tips:
+        If you get nervous in interviews, try doing some practice problems under time pressure.
+        If you don’t have much software engineering experience, see if you can get a friend to look over your practice 
+        code and provide feedback.
+
+    During the interview:
+
+        Make sure you understand exactly what problem you’re trying to solve. Ask the interviewer questions if anything 
+        is unclear or underspecified.
+        Make sure you explain your plan to the interviewer before you start writing any code, so that they can help you 
+        avoid spending time going down less-than-ideal paths.
+        If you can’t think of a good way to do something, it often helps to start by talking through a dumb way to do it.
+        Mention what invalid inputs you’d want to check for (e.g. input variable type check). Don’t bother writing the 
+        code to do so unless the interviewer asks. In all my interviews, nobody has ever asked.
+        Before declaring that your code is finished, think about variable initialization, end conditions, and boundary
+        cases (e.g. empty inputs). If it seems helpful, run through an example. You’ll score points by catching your 
+        bugs yourself, rather than having the interviewer point them out.
+
+2. Applied machine learning.
+    All the applied machine learning interviews I’ve had focused on supervised learning. The interviewer will present 
+    you with a prediction problem, and ask you to explain how you would set up an algorithm to make that prediction. 
+    The problem selected is often relevant to the company you’re interviewing at (e.g. figuring out which product to 
+    recommend to a user, which users are going to stop using the site, which ad to display, etc.), but can also be a toy 
+    example (e.g. recommending board games to a friend). This type of interview doesn’t depend on much background 
+    knowledge, other than having a general understanding of machine learning concepts (see below). However, it 
+    definitely helps to prepare by brainstorming the types of problems a particular company might ask you to solve.
+
+    When answering this type of question, I’ve found it helpful to start by laying out the setup of the problem. What 
+    are the inputs? What are the labels you’re trying to predict? What machine learning algorithms could you run on the 
+    data? Sometimes the setup will be obvious from the question, but sometimes you’ll need to figure out how to define 
+    the problem. In the latter case, you’ll generally have a discussion with the interviewer about some plausible 
+    definitions (e.g., what does it mean for a user to “stop using the site”?).
+
+    For the sake of concreteness, here’s an example. Suppose Amazon is trying to figure out what books to recommend to 
+    you. (Note: I did not interview at Amazon, and have no idea what they actually ask in their interviews.) To predict 
+    what books you’re likely to buy, Amazon can look for books that are similar to your past Amazon purchases. But maybe 
+    some purchases were mistakes, and you vowed to never buy a book like that again. Well, Amazon knows how you’ve 
+    interacted with your Kindle books. If there’s a book you started but never finished, it might be a positive signal 
+    for general areas you’re interested in, but a negative signal for the particular author. Or maybe some categories of 
+    books deserve different treatment. For example, if a year ago you were buying books targeted at one-year-olds, 
+    Amazon could deduce that nowadays you’re looking for books for two-year-olds.  It’s easy to see how you can spend 
+    a while exploring the space between what you’d like to know and what you can actually find out.
+
+3. your background.
+    You should be prepared to give a high-level summary of your career, as well as to do a deep-dive into a project 
+    you’ve worked on. The project doesn’t have to be directly related to the position you’re interviewing for 
+    (though it can’t hurt), but it needs to be the kind of work you can have an in-depth technical discussion about.
