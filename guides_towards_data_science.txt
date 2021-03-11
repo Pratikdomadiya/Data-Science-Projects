@@ -1,0 +1,76 @@
+I don’t know any professional in this field offline. So I learned by 
+reading blogs and articles. What I learned is companies get many 
+people for interviews, all of the kind who “know” stuff but very 
+few who have “built” stuff. So focus on building stuff than mere 
+learning and education (e.g. deployment and production are two major
+ things). It took me 5–6 months to realize this.
+
+reading other people’s journeys
+
+Learning advanced stats I rarely used - i made mistake by doing so. please avoid it.
+only learn following things:
+	Basics of Statistics. Not Statistics per se but only the topics specifically necessary for Machine Learning and Data Analysis
+	Basics of Bayes Theorem
+	Basics of Linear Algebra (only a few small things like matrix multiplication and transposing etc )
+	Basics of Big-O Notation 
+Yes, nothing fancy but only the basics. All the fancy stuff you can do
+ after you land a job. Till then you use Python or R Libraries. 
+Instead of trying to learn Mathematical formulas just like in school 
+or college, try to learn how to use it using Library calls in Python 
+e.g. calculating t-test using Scipy, and learn the math needed to 
+understand it:
+
+Thinking the R vs. Python debate required picking just 1.
+It is almost the same as when you are doing software development. I went fully Python after that.
+
+Most of data is unstructured.I guessed I should learn NoSQL. But then 
+almost all of the job descriptions mention only SQL. Then I will 
+think of doing SQL.A good place to start is SQLBolt.
+
+collaborating with people is going to be a big pain if we think of 
+it as “another tech job”. There is an excellent book on communicating 
+data insights titled “Storytelling With Data” by Cole Nussbaumer 
+Knaflic. It is kind of a must-read.
+
+Instead of keeping up with all the papers, a better way to balance your learning is:
+    Learn te basics of data cleaning using Pandas (Kaggle datasets have done the 90% of work for you. 
+        In real-life, you gotta do all the cleaning. Learn to scrape some data and clean it)
+    Learn the basics of machine learning modeling and why we choose one model over the other. 
+        What kinds of model fit what kind of domain problems e.g. healthcare vs finances
+    Learn how to deploy a model into production (you will know a bit of how the real work feels
+         like when you will use Strealmlit, Heroku, and Voila. I have implemented the bear-detection 
+         model using Voila here. )
+
+It is a jail, trust me. It is quite frustrating to live with a mindset of “only one way to do something”. 
+Ideas don’t have any limits if you look at real-life stories. A solution I have found so far is when I can’t 
+find my way around a problem then I will get off the machine and go for a walk if it is evening or 
+read a completely unrelated book if it is not evening (some non-fiction e.g.) or go on a motorcycle 
+ride and completely forget about the problem. Then I will come back later and try to learn the same 
+thing from a different article or blog post while not referring to the original point where I was stuck. 
+Just a fresh new perspective on the same problem from someone else.
+
+what skills are most important to help candidates stand out in the crowd and prepare for their careers.
+    When you think about it, a data scientist can be responsible for any subset of the following: machine learning
+    modelling, visualization, data cleaning and processing (i.e., SQL wrangling), engineering, and production deployment.
+
+ In addition to learning how to use linear_regression.fit(), learn how to write a unit test too!
+
+ It’s clear, however, with the large number of ML engineer openings that companies often want a hybrid 
+ data practitioner: someone that can build and deploy models. Or, said more succinctly, someone who 
+ can use Tensorflow but can also build it from the source.
+
+
+Statistical methods are a central part of data science. Almost all data science interviews predominantly focus on 
+descriptive and inferential statistics.People often start coding machine learning algorithms without a clear 
+understanding of underlying statistical and mathematical methods that explain the working of those algorithms.
+This, of course, isn't the best way to go about it.
+    Topics you should focus on in Applied Statistics and math:
+        Descriptive Statistics — to be able to summarise the data is powerful, but not always. Learn about estimates of location (mean, median, mode, weighted statistics, trimmed statistics), and variability to describe the data.
+        Inferential statistics — designing hypothesis tests, A/B tests, defining business metrics, analyzing the collected data and experiment results using confidence interval, p-value, and alpha values.
+        Linear Algebra, Single and multi-variate calculus to understand loss functions, gradient, and optimizers in machine learning.
+
+Supervised Learning — includes regression and classification problems. Study simple linear regression, 
+                        multiple regression, polynomial regression, naive Bayes, logistic regression, KNNs, tree models, 
+                        ensemble models. Learn about evaluation metrics.
+Unsupervised Learning — Clustering and dimensionality reduction are the two widely used applications of unsupervised learning. 
+                        Dive deep into PCA, K-means clustering, hierarchical clustering, and gaussian mixtures.
